@@ -7,22 +7,33 @@ body{
 }
 form{
    
-    width:25%;
-    justify-content: center;
-    background-color: rgba(40, 170, 200, 0,6);
-    
-    
+margin: 0 auto;
+width: 400px;
+padding: 1em;
+border: 5px solid ;
+border-radius: 1em;
+box-shadow: 10px 5px 5px blueviolet;
 }
 
 header{
-    background-color:black;
+    background-color:blanchedalmond;
+    flex-direction: row;
 }
 .header{
        border:10px;
        display: flex;
-       flex-direction: row;
        text-align: center;
-       
+
+}
+
+.header:hover{
+    background-color: blueviolet;
+
+}
+
+h1{
+    text-align: center;
+
 }
 
 
