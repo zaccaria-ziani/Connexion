@@ -13,3 +13,19 @@ form{
     
     
 }
+
+header{
+    background-color:black;
+}
+.header{
+       border:10px;
+       display: flex;
+       flex-direction: row;
+       text-align: center;
+       
+}
+
+
+
+
+
