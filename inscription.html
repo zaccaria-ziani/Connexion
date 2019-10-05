@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Connexion</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="connexion.css">
+        <link href="https://fonts.googleapis.com/css?family=Lobster&display=swap" rel="stylesheet">
+
+
+    </head>
+    <body>
+        <h1>Inscription</h1>
+        <form method="POST" action="">
+            <fieldset>
+                <legend>Informations Personnelles:</legend>
+            <label for="prenom">Login</label>
+            <input type="text" id="Login" name="Login"></br>
+
+            <label for="pass">Entrez mot de passe</label>
+            <input type="password" id="pass" name="pass"><br>
+
+            <label for="confirmation">Confirmez mot de passe</label>
+            <input type="password" id="pass" name="pass"><br>
+
+            <label for="naissance">Votre date de naissance</label>
+            <input type="date" id="naissance" name="naissance"><br>
+
+            <label for="email">Entrez votre email</label>
+            <input type="email" id="email" name="mail"><br>
+
+            <label for="site">Entrez votre site</label>
+            <input type="url" id="site" name="site"><br>
+
+            <label for="tel">Entrez votre telephone</label>
+            <input type="number" id="tel" name="tel"><br><br>
+
+            <label for="presentation"> Une petite présentation ?</label>
+            <textarea id="presentation"></textarea><br><br>
+
+            Homme ou femme?:<br>
+            <input type="radio" id="homme" name="sexe" value="homme">
+            <label for="homme">Un homme</label><br>
+            <input type="radio" id="femme" name="sexe" value="femme">
+            <label for="femme">Une femme</label><br><br>
+
+            Majeur ou mineur?:<br>
+            <input type="radio" id="mineur" name="age" value="mineur">
+            <label for="mineur">Mineur</label><br>
+            <input type="radio" id="majeur" name="age" value="majeur">
+            <label for="majeur">Majeur</label><br><br>
+        
+
+            
+
+            Où habitez vous ?: <br>
+            <select name="pays">
+                <optgroup label="Europe">
+                <option value="france">France</option>
+                <option value="Espagne">Espagne</option>
+                <optgroup label="Amerique du sud">
+                 <option value="Brésil">Brésil</option>
+                 <option value="Bolivie">Bolivie</option> 
+                 </optgroup>  
+            </select><br><br>
+
+            Niveau d'études ?: <br>
+            <select name="Dîplome">
+            
+                <option value="Brevet des collèges">Brevet des collèges</option>
+                <option value="Bac Pro">Bac Pro</option>
+                <option value="Bac Gen">Bac General(S,L,ES)</option>
+            </select><br><br>
+        </fieldset>
+
+        <fieldset>
+            <legend>Loisirs</legend>
+
+        Quelles sont vos hobbies ?:<br>
+            <input type="checkbox" name="hobbie" value="natation" id="natation">
+            <label for="natation">Natation</label><br>
+
+            <input type="checkbox" name="hobbie" value="football" id="football">
+            <label for="football">Football</label><br>
+
+            <input type="checkbox" name="Jeux Vidéo" value="Jeux Vidéo" id="Jeux Vidéo">
+            <label for="Jeux Vidéo">Jeux Vidéo</label><br>
+
+            <input type="checkbox" name="Cuisine" value="Cuisine" id="Cuisine">
+            <label for="Cuisine">Cuisine</label><br><br>
+        
+        </fieldset>
+
+       
+
+
+
+
+            <fieldset>
+                <legend>Bonus:</legend>
+
+            <label for="prez">Petite presentation:</label>
+            <textarea id="prez" name="presentation"></textarea></br>
+
+            <input type="submit" value="Envoyer">
+        </fieldset>
+
+        <fieldset>
+            <a href="Motdepasse.html">Mot de passe oublié?</a>
+            <div class="Accueil"><a href="Connexion.html">Inscription</a></div>
+        </fieldset>
+
+        </form>
+
+    </body>
+
+</html>
